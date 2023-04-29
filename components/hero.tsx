@@ -19,11 +19,11 @@ export default function Hero() {
                         <div id="navbarMenuHeroB" className="navbar-menu">
                             <div className="navbar-end has-text-centered">
                                 <span className="navbar-item">
-                                    <a className="button is-dark is-inverted">
+                                    <a target='_blank' href='https://github.com/Zor3n/duplex-nulla' className="button is-dark is-inverted">
                                         <span className="icon">
                                             <BsGithub />
                                         </span>
-                                        <span>Descargar</span>
+                                        <span>Código</span>
                                     </a>
                                 </span>
                             </div>
@@ -51,19 +51,13 @@ export default function Hero() {
                                 <Link href="#resumen">Resumen</Link>
                             </li>
                             <li>
-                                <a>Modifiers</a>
+                                <Link href="#sobre-me">Sobre el autor</Link>
                             </li>
                             <li>
-                                <a>Grid</a>
+                                <Link href="#objetivo">Lucas 9:62</Link>
                             </li>
                             <li>
-                                <a>Elements</a>
-                            </li>
-                            <li>
-                                <a>Components</a>
-                            </li>
-                            <li>
-                                <a>Layout</a>
+                                <Link href="#final">Para terminar</Link>
                             </li>
                         </ul>
                     </div>
